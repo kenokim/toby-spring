@@ -15,3 +15,6 @@ https://www.youtube.com/watch?v=oR1sYfmMQrI
 Reactive-streams
 iterable 과 observable 은 duality 관계
 Complete 개념, 예외처리 기능이 없다.
+
+
+Observer pattern : 객체 사이에 일대 다의 의존관계를 정의해 두어, 객체의 상태가 변할 때 그 객체에 의존성을 가진 다른 객체들이 알림을 받을 수 있도록 한다.
