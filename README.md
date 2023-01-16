@@ -18,3 +18,13 @@ Complete 개념, 예외처리 기능이 없다.
 
 
 Observer pattern : 객체 사이에 일대 다의 의존관계를 정의해 두어, 객체의 상태가 변할 때 그 객체에 의존성을 가진 다른 객체들이 알림을 받을 수 있도록 한다.
+
+
+
+Spring 5 에서 WebFlux 가 도입되었다.
+
+Spring web vs Reactive - 서로 배타적이며 web 이 우선으로, dispatcherservlet 이 뜰 경우 embedded tomcat 이 실행된다.
+
+AsyncRestTemplate 은 spring 5 에서 deprecated, 6 에서는 삭제되었고 reactive style 이 아니라는 단점이 있었다.
+
+WebClient 가 이를 대체하였고, 비동기 논블로킹 기능을 가진 reactive style 의 기능이다.
