@@ -28,3 +28,5 @@ Spring web vs Reactive - 서로 배타적이며 web 이 우선으로, dispatcher
 AsyncRestTemplate 은 spring 5 에서 deprecated, 6 에서는 삭제되었고 reactive style 이 아니라는 단점이 있었다.
 
 WebClient 가 이를 대체하였고, 비동기 논블로킹 기능을 가진 reactive style 의 기능이다.
+
+스프링 부트는 스프링을 기반으로 실무 환경에 사용 가능한 수준의 standalone 어플리케이션을 빠르게 작성할 수 있도록 도와준다.
